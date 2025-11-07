@@ -1,80 +1,23 @@
 # 01.1 - Hello World
 
-## 🎯 Cel
-Uruchomienie pierwszego programu C# i zrozumienie struktury programu.
+## Cel Modułu
+Uruchomienie pierwszego programu w C#. Zapoznanie się z podstawową strukturą aplikacji konsolowej.
 
-## 📚 Koncepty
+## Zagadnienia
 - Struktura programu C#
 - Metoda Main()
-- Console.WriteLine()
-- Namespace
+- Pierwsze wyjście do konsoli (Console.WriteLine)
+- Uruchamianie aplikacji
 
-## 📝 Program
+## Oczekiwana Umiejętność
+**Uruchomienie pierwszego programu w C#**
 
-```csharp
-using System;
+## Zadania
+1. Uruchom program Hello World
+2. Zmodyfikuj tekst wypisywany do konsoli
+3. Dodaj dodatkowe Console.WriteLine() z innymi komunikatami
+4. Spróbuj uruchomić Program poprzez dotnet run
 
-namespace HelloWorld
-{
-    class Program
-    {
-        static void Main(string[] args)
-        {
-            Console.WriteLine("Cześć świecie!");
-        }
-    }
-}
-```
-
-## 📖 Wyjaśnienie
-
-```
-using System;               // Importujemy namespace System
-                           // Zawiera Console i inne podstawowe klasy
-
-namespace HelloWorld       // Organizujemy kod w przestrzeń nazw
-{
-    class Program          // Definiujemy klasę Program
-    {
-        static void Main() // Entry point - tu zaczyna się program
-        {
-            // Wypisujemy tekst na ekran
-            Console.WriteLine("Cześć świecie!");
-        }
-    }
-}
-```
-
-## 🚀 Jak Uruchomić?
-
-```bash
-# Przejdź do folderu projektu
-cd 01-Podstawy/01.1-Hello-World
-
-# Uruchom program
-dotnet run
-```
-
-## 📤 Spodziewany Output
-
-```
-Cześć świecie!
-```
-
-## 💡 Ciekawostki
-
-- `static void Main()` musi być w programie
-- `void` oznacza, że metoda nic nie zwraca
-- `Console.WriteLine()` dodaje nową linię po tekście
-- `Console.Write()` nie dodaje nowej linii
-
-## ✏️ Zadania
-
-1. Zmień tekst na "Witaj C#!"
-2. Dodaj więcej linii tekstu
-3. Sprawdź różnicę między `WriteLine` a `Write`
-
----
-
-[← Wróć do 01-Podstawy](../README.md)
-
+## Pliki
+- `HelloWorld/Program.cs` - Główny plik z kodem programu
+- `HelloWorld/HelloWorld.csproj` - Plik projektu

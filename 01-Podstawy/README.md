@@ -1,9 +1,9 @@
-# 01 - Podstawy C#
+# Modul 01 - Podstawy C#
 
-## 🎯 Cel Modułu
-Opanowanie fundamentów języka C# - składni, typów danych, zmiennych i operatorów. Po tym module będziesz rozumieć, jak języki pracują z danymi.
+## Przegląd
+Modul wprowadzający do języka C#. Obejmuje strukturę programu, typy danych, zmienne i podstawowe operacje.
 
-## 📚 Tematy
+## Lekcje
 
 ### 01.1 - Hello World
 - Struktura programu C#
@@ -13,21 +13,20 @@ Opanowanie fundamentów języka C# - składni, typów danych, zmiennych i operat
 
 ### 01.2 - Składnia i Struktura Programu
 - Konwencje nazewnictwa
-- Punkty z przecinkami
-- Nawias klamrowy
-- Komentarze (// i /* */)
+- Średniki i nawiasy klamrowe
+- Komentarze
+- Indentacja
 - **Umiejętność:** Czytanie i pisanie prawidłowego kodu
 
 ### 01.3 - Typy Danych
-- Typy wartościowe: int, double, bool, char, decimal
-- Typy referencyjne: string
+- Typy wartościowe (int, double, bool, char, decimal)
+- Typy referencyjne (string)
 - Zakresy wartości
 - **Umiejętność:** Wybranie odpowiedniego typu do zadania
 
 ### 01.4 - Zmienne, Stałe, Literały
-- Deklaracja zmiennych
-- Inicjalizacja
-- Zakresy zmiennych
+- Deklaracja i inicjalizacja zmiennych
+- Zakresy zmiennych (scope)
 - const i readonly
 - **Umiejętność:** Zarządzanie danymi w programie
 
@@ -35,81 +34,24 @@ Opanowanie fundamentów języka C# - składni, typów danych, zmiennych i operat
 - Konwersja niejawna (implicit)
 - Konwersja jawna (explicit/casting)
 - Parse() i TryParse()
-- Convert class
+- Klasa Convert
 - **Umiejętność:** Bezpieczna zamiana typów
 
 ### 01.6 - Operatory
-- Arytmetyczne: +, -, *, /, %
-- Porównania: ==, !=, <, >, <=, >=
-- Logiczne: &&, ||, !
-- Przypisania: =, +=, -=, etc.
+- Operatory arytmetyczne
+- Operatory porównania
+- Operatory logiczne
+- Operatory przypisania
 - **Umiejętność:** Wykonywanie operacji na danych
 
----
+## Cele Ogólne
+Po ukończeniu tego modułu student będzie w stanie:
+- Uruchomić pierwszy program w C#
+- Zrozumieć strukturę programu C#
+- Pracować z różnymi typami danych
+- Wykonywać operacje na zmiennych
+- Konwertować typy danych bezpiecznie
+- Pisać czytelny kod zgodnie z konwencjami
 
-## 📁 Struktura Folderów
-
-```
-01-Podstawy/
-├── 01.1-Hello-World/
-│   ├── Program.cs
-│   ├── README.md
-│   └── ZADANIA.md
-├── 01.2-Skladnia/
-│   ├── Program.cs
-│   ├── README.md
-│   └── ZADANIA.md
-├── 01.3-Typy-Danych/
-│   ├── Program.cs
-│   ├── README.md
-│   └── ZADANIA.md
-├── 01.4-Zmienne-Stalе/
-│   ├── Program.cs
-│   ├── README.md
-│   └── ZADANIA.md
-├── 01.5-Konwersja-Typów/
-│   ├── Program.cs
-│   ├── README.md
-│   └── ZADANIA.md
-├── 01.6-Operatory/
-│   ├── Program.cs
-│   ├── README.md
-│   └── ZADANIA.md
-└── README.md
-```
-
----
-
-## ✅ Checklist Nauki
-
-- [ ] Mogę uruchomić program C#
-- [ ] Znam różne typy danych
-- [ ] Potrafię deklarować zmienne
-- [ ] Rozumiem konwersję typów
-- [ ] Potrafię używać operatorów
-- [ ] Znam różnicę między const a readonly
-
----
-
-## 📖 Rekomendowana Kolejność
-
-1. Zacznij od `01.1-Hello-World`
-2. Przejdź do `01.2-Skladnia`
-3. Naucz się `01.3-Typy-Danych`
-4. Pracuj z `01.4-Zmienne-Stalе`
-5. Naucz się `01.5-Konwersja-Typów`
-6. Opanuj `01.6-Operatory`
-
----
-
-## 🎯 Cel Końcowy
-
-Po tym module powinieneś:
-✅ Rozumieć strukturę programu C#  
-✅ Znać wszystkie podstawowe typy  
-✅ Potrafić deklarować i inicjować zmienne  
-✅ Umieć konwertować typy  
-✅ Znać operatory i ich zastosowanie  
-
-**Następnie:** Przejdź do 02-Kontrola-Przeplywu/ 🚀
-
+## Ścieżka Nauki
+→ 01.1 → 01.2 → 01.3 → 01.4 → 01.5 → 01.6 →
