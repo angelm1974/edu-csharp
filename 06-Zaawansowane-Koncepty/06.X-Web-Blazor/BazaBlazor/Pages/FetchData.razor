@@ -1,0 +1,42 @@
+﻿@page "/fetchdata"
+
+@using BazaBlazor.Data
+@inject ZooService mojeZooService 
+
+<h1>Lista pracowników</h1>
+
+<p>This component demonstrates fetching data from a service.</p>
+
+@if (pracownicy == null)
+{
+    <p><em>Loading...</em></p>
+}
+else
+{
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Imię</th>
+                <th>Nazwisko</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var pracownik in pracownicy)
+            {
+                <tr>
+                    <td>@pracownik.Firstname</td>
+                    <td>@pracownik.Lastname</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+
+@code {
+    private List<Employee> pracownicy;
+
+    protected override async Task OnInitializedAsync()
+    {
+        pracownicy = await mojeZooService.GetEmploys();
+    }
+}

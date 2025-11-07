@@ -1,0 +1,35 @@
+# Binarne pliki
+bin/
+obj/
+*.dll
+*.exe
+*.o
+*.so
+
+# Visual Studio
+.vs/
+*.user
+*.sln.docstates
+.vscode/
+
+# ReSharper
+.idea/
+*.sln.iml
+
+# Tymczasowe pliki
+*.tmp
+*.temp
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Node (jeśli będą projekty z Node)
+node_modules/
+package-lock.json
+
+# Python
+__pycache__/
+*.pyc
+

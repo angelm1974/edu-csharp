@@ -1,0 +1,18 @@
+# 02.2-Petle-Ref
+
+## 🎯 Cel
+[Wpisz opis celu tego modułu]
+
+## 📚 Koncepty
+- [Koncept 1]
+- [Koncept 2]
+
+## 🚀 Jak Uruchomić?
+
+```bash
+cd 02.2-Petle-Ref
+dotnet run
+```
+
+---
+[← Wróć do 02-Kontrola-Przeplywu](../README.md)
